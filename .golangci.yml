@@ -1,0 +1,30 @@
+linters:
+  enable:
+    - bodyclose
+    - cyclop
+    - godox
+    - godot
+    - gofmt
+    - misspell
+    - sqlclosecheck
+    - unconvert
+    - whitespace
+    - thelper
+    - tparallel
+    - unparam
+    - wastedassign
+    - revive
+
+linters-settings:
+  revive:
+    enableAllRules: true
+
+issues:
+  #https://github.com/golangci/golangci-lint/blob/a20748098fb3cb4b69f6b6ebb7809e7741122ef8/pkg/config/issues.go
+  exclude-use-default: true
+  include:
+    - EXC0002
+    - EXC0012
+    - EXC0013
+    - EXC0014
+    - EXC0015
