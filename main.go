@@ -215,5 +215,7 @@ func checkError(err error, w io.Writer, exit func(code int)) {
 func main() {
 	profiles, err := processArgs(os.Args, os.Stdin)
 	checkError(err, os.Stderr, os.Exit)
+	profiles, err = filterProfiles(profiles, ".coverignore")
+	checkError(err, os.Stderr, os.Exit)
 	printProfiles(deDuplicate(profiles), os.Stdout)
 }

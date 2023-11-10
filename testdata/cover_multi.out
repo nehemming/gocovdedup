@@ -1,0 +1,13 @@
+mode: set
+github.com/repo/gocovdedup/main.go:17.76,19.22 2 0
+github.com/repo/gocovdedup/main.go:20.9,21.22 1 0
+github.com/repo/gocovdedup/main.go:22.10,25.35 3 0
+github.com/repo/gocovdedup/main.go:25.35,26.18 1 0
+github.com/repo/alternate/main.go:17.76,19.22 2 0
+github.com/repo/alternate/main.go:20.9,21.22 1 0
+github.com/repo/alternate/main.go:22.10,25.35 3 0
+github.com/repo/alternate/main.go:25.35,26.18 1 0
+github.com/proto/alternate/main.go:17.76,19.22 2 0
+github.com/proto/alternate/main.go:20.9,21.22 1 0
+github.com/proto/alternate/main.go:22.10,25.35 3 0
+github.com/proto/alternate/main.go:25.35,26.18 1 0
