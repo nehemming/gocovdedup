@@ -28,3 +28,14 @@ cat files | gocovdedup - > cover.out
 gocovdedup package_one.out package_tow.out commontests.out > cover.out
 ```
 
+### Ignoring packages and files
+
+Files and packages can be excluded by including a `.coverognore` file
+in the working directory.  This file works very similarly to `.gitignore` files.
+
+github.com/repo/alternate/*
+Causes te filter to remove all files immediately under `github.com/repo/alternate`
+
+\*\*/proto/\*\* 
+Excludes all packages with proto in their path.
+
